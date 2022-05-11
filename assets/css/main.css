@@ -90,27 +90,17 @@
   width: 95%;
     height: 65%;
 }
-/* .main_contact{
-  position: relative;
-  height: 705px;
+ .main_contact{
+  padding-bottom: 100px 0px;
 }
-.main_contact::before{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background: #00063D;
-  opacity: 0.5;
-} */
+
 .header_quality--bg {
   height: 704px;
   color: var(--white);
 }
 .request_left{
   padding-left: 20%;
-    padding-top: 17%;
+    padding-top: 14%;
 }
 .title_request{
   font-weight: 700;
@@ -119,11 +109,11 @@
 margin-bottom: 10px;
 }
 .request_right{
-  padding-left: 10%;
+  /* padding-left: 10%; */
   align-self: center;
 }
 .form_request_right{
-  width: 60%;
+  width: 75%;
   height: 90%;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
@@ -133,7 +123,7 @@ margin-bottom: 10px;
 .title_information{
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 30px;
   color: #FFFFFF;
   padding-bottom: 5px;
 }
@@ -144,6 +134,7 @@ margin-bottom: 10px;
   color: #7CC8FF;
   margin-top: 0px;
 }
+
 input[type=text] {
   width: 100%;
   padding: 10px ;
@@ -152,6 +143,7 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 input[type=submit] {
@@ -163,6 +155,9 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 50px;
 }
 .header__nav-container {
   align-items: center;
@@ -356,7 +351,7 @@ input[type=submit] {
   justify-content: center;
 }
 .main_done{
- padding-bottom: 30px;
+ padding: 50px 0px 200px 0px;
 }
 /* footer   */
 .footer {

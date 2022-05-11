@@ -55,10 +55,23 @@
 .main_market {
   padding: 30px 0px;
 }
+.reponsive{
+  min-width: 740px;
+}
+.text_align--end{
+  align-items: end;
+}
+.text_alignself--end{
+  align-self: "flex-end";
+}
+.style_done_title{
+  align-self: "self-start";
+  padding-top: 10%;
+}
 .title_market{
   font-weight: 700;
   font-size: 65px;
-  line-height: 260px;
+  line-height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -87,14 +100,15 @@
 }
 .img_havedone{
   width: 95%;
-    height: 65%;
+    height: 80%;
+    object-fit: contain;
 }
  .main_contact{
   padding-bottom: 100px 0px;
 }
 
 .header_quality--bg {
-  height: 704px;
+  height: 710px;
   color: var(--white);
 }
 .request_left{
@@ -134,6 +148,7 @@ margin-bottom: 10px;
   line-height: 40px;
   color: #7CC8FF;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 .main_contact {
   padding: 100px 0px;
@@ -364,6 +379,7 @@ input[type=submit] {
 }
 .main_done{
  padding: 50px 0px 200px 0px;
+ min-width: 740px;
 }
 /* footer   */
 .footer {

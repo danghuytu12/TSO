@@ -111,6 +111,8 @@ margin-bottom: 10px;
 .request_right{
   /* padding-left: 10%; */
   align-self: center;
+  display: flex;
+  justify-content: center;
 }
 .form_request_right{
   width: 75%;
@@ -134,7 +136,9 @@ margin-bottom: 10px;
   color: #7CC8FF;
   margin-top: 0px;
 }
-
+.main_contact {
+  padding: 100px 0px;
+}
 input[type=text] {
   width: 100%;
   padding: 10px ;

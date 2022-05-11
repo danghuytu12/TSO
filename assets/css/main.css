@@ -18,7 +18,7 @@
 }
 
 #have_done--item {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .text_have_done--item {
@@ -33,6 +33,9 @@
   font-size: 24px;
   line-height: 25px;
   color: #fff;
+}
+.style_market_offer{
+  padding-left: 20%;
 }
 .img_offer{
   width: 20px;
@@ -49,11 +52,15 @@
 .style_market{
   padding-left: 10%;
 }
+.main_market {
+  padding: 30px 0px;
+}
 .title_market{
   font-weight: 700;
   font-size: 80px;
   line-height: 10px;
-  padding-left: 30%;
+  display: flex;
+  justify-content: center;
 }
 .text_market{
   font-weight: 700;
@@ -79,15 +86,31 @@
   justify-content: center;
   padding-top: 20px;
 }
-
-
+.img_havedone{
+  width: 95%;
+    height: 65%;
+}
+/* .main_contact{
+  position: relative;
+  height: 705px;
+}
+.main_contact::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #00063D;
+  opacity: 0.5;
+} */
 .header_quality--bg {
   height: 704px;
   color: var(--white);
 }
 .request_left{
   padding-left: 20%;
-    padding-top: 20%;
+    padding-top: 17%;
 }
 .title_request{
   font-weight: 700;
@@ -97,14 +120,22 @@ margin-bottom: 10px;
 }
 .request_right{
   padding-left: 10%;
-  padding-top: 9%;
+  align-self: center;
 }
 .form_request_right{
   width: 60%;
-  height: 450px;
+  height: 90%;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   border: 1px solid #FFFFFF;
+  padding:20px 20px;
+}
+.title_information{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-bottom: 5px;
 }
 .content_request{
   font-weight: 400;
@@ -115,13 +146,14 @@ margin-bottom: 10px;
 }
 input[type=text] {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px ;
+  margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 input[type=submit] {
   width: 100%;
   background-color: #111111;
@@ -278,7 +310,7 @@ input[type=submit] {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 6.2rem;
-  color: var(--black);
+  color: var(--blackone);
 }
 
 .solution_heading--sub {
@@ -323,7 +355,9 @@ input[type=submit] {
 .have_done--align {
   justify-content: center;
 }
-
+.main_done{
+ padding-bottom: 30px;
+}
 /* footer   */
 .footer {
   padding-bottom: 110px;
